@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-black
+}
+
+@font-face {
+  font-family: 'TT Interphases Pro';
+  src: url('/fonts/TTInterphasesPro-Regular.woff2') format('woff2'),
+       url('/fonts/TTInterphasesPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interphases Pro';
+  src: url('/fonts/TTInterphasesPro-Bold.woff2') format('woff2'),
+       url('/fonts/TTInterphasesPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
